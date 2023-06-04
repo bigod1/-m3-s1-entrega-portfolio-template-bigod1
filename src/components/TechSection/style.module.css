@@ -1,0 +1,17 @@
+.section{
+
+}
+
+.h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+
+    margin-bottom: 30px;
+}
+
+.ul{
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+}

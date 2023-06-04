@@ -1,0 +1,30 @@
+.section{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 95px 0 100px 0;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.text{
+    width: 528px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+@media (max-width: 425px){
+    .section{
+        flex-direction: column;
+    }
+
+    .text{
+        width: 390px;
+    }
+}
